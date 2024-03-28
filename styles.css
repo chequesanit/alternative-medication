@@ -792,7 +792,7 @@ a#butt{
     font-size: 18px;
     font-weight: 400;
     margin-top: 1rem;
-} */
+} 
 
 /* ===================POINT================== */
 
@@ -847,6 +847,12 @@ a#butt{
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+}
+
+.locate{
+    align-items: center;
+    text-align: center;
+    padding: 1rem 15px;
 }
 
 .locate h1{
@@ -937,8 +943,8 @@ a#butt{
 
 .cus-btn{
     margin-top: 30px;
-    display: flex;
-    gap: 6%;
+    display: block;
+    gap: 6px;
 }
 
 .cus-btn a{

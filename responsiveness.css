@@ -264,6 +264,7 @@
         .icons{
             font-size: 30px;
             align-items: center;
+            justify-content: center;
             display: flex;
             gap: 16.9px;
             margin-top: 1.6rem;
@@ -282,17 +283,6 @@
         .icon-btn{
             width: 2.5rem;
             height: 2.5rem;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            justify-content: space-around;
-            background: transparent; 
-            display: flex;
-            justify-content: space-around;
-            color: #212020;
-            border-radius: 60%;
-            border: 1px solid #fff;
-            transition: transform .1s;
         }
         
         .icon-btn i{
@@ -313,33 +303,359 @@
 
     .news-top{
             display: block;
-            justify-content: space-between;
-            height: 280vh;
+            height: 150vh;
             width: 100%;
-            padding: 2rem 15px;
+            padding: 1rem 15px;
+        }
+
+        .branch{
+            margin-top: 1rem;
         }
 
         .news{
             display: block;
+            padding: 1rem 15px;
+            height: 160vh;
         }
         
         .wrapper-top{
-            border-radius: 10px;
-            width: 120px; 
+            width: 100%; 
             height: 320px;
-            overflow: hidden;
+        }
+
+        .art{
+            flex-wrap: wrap-reverse;
+            background: #FCF4E6;
+            padding: 1rem 15px;
+            justify-content: space-around;
+            gap: 1rem;
         }
         
-        .wrapper-top img:hover{
-            transform: scale(1.1);
+        .rem h1{
+            font-size: 40px;
+            font-family: 'Gentium Basic', sans-serif;
+            font-weight: 400;
+        }
+        
+        .rem p.and{
+            margin-top: 1rem;
+            font-size: 20px;
+        }
+        
+        .med{
+            justify-content: center;
+            justify-content: space-between;
+            gap: 0rem;
+            margin-top: 1rem;
+        }
+
+        .med p{
+            margin-top: 2rem;
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        .medication{
+            gap: 0rem;
+            justify-content: space-between;
+            margin-top: 3rem;
+        }
+
+        .medication p{
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .style-btn{
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .dicator img{
+            margin-top: 1rem;
+            width: 280px;
         }
     
+        /* service */
+
+        .service{
+            background: #FCF4E6;
+            padding: 2rem 10px;
+        }
+        
+        .our{
+            padding: 0px 10px;
+            display: flex;
+            gap: rem;
+            justify-content: space-between;
+        }
+        
+        h1.ser{
+            font-size: 20px;
+            color: #2F2F2F;
+            font-weight: 400;
+            font-family: 'Gentium Basic', sans-serif;
+        }
+        
+        a#butt{
+            padding: 10px 10px;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        
+        
+        .top{
+            background: #FCF4E6;
+            display: block;
+            justify-content: space-between;
+            height: 183vh;
+            padding: 1px 15px;
+        }
+        
+        .top-wrapper{
+            width: 100%;
+            height: 340px;
+        }
+
+        .join{
+            align-items: center;
+            text-align: center;
+        }
+
+        .wrapper-top img{
+            height: 100%;
+            width: 100%;
+        }
+        
+        .branch h2{
+            font-size: 25px;
+            color: #2F2F2F;
+            margin-top: 2rem;
+        }
+        
+        .branch p{
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 1rem;
+        }
     
 
+        .point{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            padding: 0rem 15px;
+        }
+        
+        .job{
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 10px;
+        }
+        
+        .-join{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        #body-end-list{
+            width: 100%;
+            height: 140vh;
+            text-align: center;
+            align-items: center;
+            padding: 2rem 15px;
+        }
+        
+        .first-list{
+            flex-wrap: wrap-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+        
+        .locate h1{
+            font-family: 'Gentium Basic', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        .list-one{
+            margin-top: 1rem;
+        }
+        
+        .list-one p{
+            margin-top: 0.7rem;
+        }
+        
+        .list-one ul li a{
+            text-decoration: none;
+            color: #5b5757;
+            font-size: 20px;
+            transition: color .3s;
+        }
+        
+        .list-one ul li a:hover{
+            color: #5fa573;
+        }
+        
+        .list-one p{
+            color: #5b5757;
+            margin-bottom: 0;
+            font-family: Karla, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.4em;
+        }
+        
+        .list-two a img{
+            max-width: 100%;
+            display: inline-block;
+        }
 
+        .list-two{
+            display: block;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .list-two h1{
+            color: #2f2f2f;
+            margin-top: 0;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        
+        .cus-btn{
+            margin-top: 0px;
+            display: block;
+        }
+        
+        .cus-btn a{
+            /* padding: 12px 20px;*/
+            font-size: 19px; 
+            font-weight: 400;
+            width: 11rem;
+            height: 3rem;
+        }
+        
+        .cus-btn  .cus-btnb{
+            background: #fff;
+            border: none;
+            padding: 12px 35px;
+        }
 
+        .cus-btn{
+            margin-top: 30px;
+            display: flex;
+            gap: 6%;
+        }
+        
+        .cus-btn a{
+            text-decoration: none;
+            text-align: center;
+            border-radius: 50px;
+            padding: 12px 35px;
+            font-size: 17px;
+            font-weight: 400;
+            transition: all .3s;
+            color: #2f2f2f;
+            border: 1px solid #2f2f2f;
+        }
+        
+        .cus-btn  .cus-btnb{
+            background: #fff;
+            border: none;
+            padding: 12px 30px;
+        }
+        
+        .second-list{
+            display: flex;
+            align-items: center;
+            display: flex;
+            gap: 12%;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-family: Gentium basic, sans-serif;
+        }
+        
+        .lst-one{
+            margin-top: 2.3rem;
+        }
+        
+        .lst-one h1{
+            font-size: 30px;
+            font-weight: 400;
+            font-family: 'Gentium Basic', sans-serif;
+        }
+        
+        .this{
+            color: #5b5757;
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 1rem;
+        }
+        
+        .this p{
+            line-height: 2.6rem;
+        } 
 
+        .office h1{
+            font-family: 'Gentium Basic', sans-serif;
+            font-size: 50px;
+            font-weight: 400;
+        
+        }
+        
+        .lst-one ul{
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            gap: 15px;
+        }
+        
+        .lst-one p {
+            text-decoration: none;
+            color: #5b5757;
+            font-size: 20px;
+            font-weight: 400;
+            transition: color .3s;
+        }
+        
+        
+        .footer{
+            padding: 3rem 15px;
+            display: block;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .blog{
+            display: flex;
+            gap: 14px;
+        }
+        
+        .blog p{
+            font-size: 20px;
+            font-weight: 400;
+        }
+        
+        .blog p:hover{
+            color: #5fa573;
+        }
 
-
+        .foot{
+            margin-top: 1rem;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .foot p{
+            color: #212020;
+            font-size: 19px;
+            font-weight: 400;
+        }
 
 }
