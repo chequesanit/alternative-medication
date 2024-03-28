@@ -1,0 +1,345 @@
+@media (max-width: 600px){
+    header{
+        width: 100%;
+        display: flex;
+        padding: 1px 15px;
+    }
+
+    .navigation-items a{
+        display: none;
+    }
+    
+    a#button{
+        display: none;
+    }
+
+        
+    header .brand img{
+    width: 110px;
+    height: 90px;
+    }   
+
+    .notification-count {
+        position: absolute;
+        right: 1rem;
+        top: 1.3rem;
+    }
+
+    .hero{
+        flex-wrap:wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 1px 15px;
+        height: 135vh;
+    }
+
+    .pictures{
+        padding: 0px 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pictures img{
+        width: 140px;
+        height: 180px;
+    }
+    
+    .priority{
+        text-align: center;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .second p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .sec-button{
+        gap: 1px;
+        align-items: center;
+        text-align: center;
+        margin-left: 5rem;
+        justify-content: center;
+        display: block;
+        margin-top: 0px;
+    }
+
+    button{
+        width: 9.5rem;
+        border-radius: 5rem;
+        font-size: 16px;
+        font-weight: 200;
+        gap: 1rem;
+    }
+
+    .play-btn{
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .btn-join{
+        gap: 9px;
+        margin-top: 1rem;
+    }
+    
+    .btn-join p{
+        font-size: 1rem;
+        font-weight: 300;
+        color: #2f2f2f;
+    }
+
+    #sub{
+        padding: 0rem 15px;
+        height: 390vh;
+    }
+
+    .net{
+        padding: 1rem 15px;
+    }
+    
+    .net h1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .net p{
+        margin-top: 5px;
+        font-size: 23px;
+        line-height: 1.7rem;
+    }
+
+    .box{
+        padding: 0px 15px;
+        margin-top: 2rem;
+        display: block;
+    }
+
+    .card{
+        margin-top: 1rem;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .holistic h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    .personalized h2{
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+    
+    .holistic p{
+        font-size: 19.4px;
+        font-weight: 300;
+        color: #5a5143;
+        margin-top: 11px;
+    }
+    
+    .personalized p{
+        font-size: 19.4px;
+        font-weight: 300;
+        margin-top: 11px;
+    }
+    
+    .last{
+        margin-top: 1rem;
+    }
+
+    .how{
+        margin-top: 3rem;
+        padding: 0px 15px;
+        display: block;
+    }
+    
+    .you h1{
+        font-size: 43px;
+        font-weight: 400;
+    }
+    
+    .you p{
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+
+    .banner{
+        margin-top: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner img{
+        width: 320px;
+    }
+
+    .container{
+        padding: 0px 10px;
+        display: block;
+        justify-content: space-between;
+        margin-top: 3.6rem;
+    }
+    
+    .content{
+        padding: 2rem 20px;
+        background: #BDCDC1;
+        width: 100%;
+        height: 19rem;
+        margin-top: 1rem;
+    }
+
+    .true{
+        height: 220vh;
+        padding: 2rem 15px;
+        background: #2f2f2f;
+    }
+    
+
+    .leaf h2{
+        margin-top: 2rem;
+        font-size: 29.6px;
+        font-family: 'Gentium Basic', sans-serif;
+        font-weight: 400;
+        color: white;
+    }
+    
+    .ink{
+        padding: 3rem 15px;
+        justify-content: space-between;
+    }
+
+    .ink img{
+        width: 60px;
+    }
+
+    .testimonials{
+        display: block;
+        margin-top: 2rem;
+    }
+    
+    .woman{
+        width: 350px;
+        height: 360px;
+    }
+    
+    .woman img{
+        width: 330px;
+        height: 290px;
+    }
+    .designer p{
+        color: #5FA573;
+        font-size: 20px;
+    }
+        
+    .designer h2{
+        margin-top: 3rem;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Gentium Basic', sans-serif;
+    }
+        
+        .designer h3{
+            margin-top: 2.5rem;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 400;
+            font-family: 'Gentium Basic', sans-serif;
+        }
+        
+        .designer p.arrow{
+            margin-top: 12px;
+            font-size: 18px;
+            color: #fff;
+            font-weight: 400;
+            }
+        
+        .icons{
+            font-size: 30px;
+            align-items: center;
+            display: flex;
+            gap: 16.9px;
+            margin-top: 1.6rem;
+        }
+        .icon i{
+            padding: 1rem;
+            background-color: transparent;
+            border-radius: 9rem;
+            border: 1px solid rgba(191, 191, 191, 0.369);
+        }
+        
+        .icon-btn:hover{
+            background: #5FA573;
+        }
+        
+        .icon-btn{
+            width: 2.5rem;
+            height: 2.5rem;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            justify-content: space-around;
+            background: transparent; 
+            display: flex;
+            justify-content: space-around;
+            color: #212020;
+            border-radius: 60%;
+            border: 1px solid #fff;
+            transition: transform .1s;
+        }
+        
+        .icon-btn i{
+            font-size: 1.4rem;
+        }
+        
+        .news{
+            display: flex;
+            padding: 0px 45px;
+            background: #FDF7EF;
+            justify-content: space-between;
+            height: 80vh;
+        }
+
+        .icons{
+            gap:1.8rem;
+        }
+
+    .news-top{
+            display: block;
+            justify-content: space-between;
+            height: 280vh;
+            width: 100%;
+            padding: 2rem 15px;
+        }
+
+        .news{
+            display: block;
+        }
+        
+        .wrapper-top{
+            border-radius: 10px;
+            width: 120px; 
+            height: 320px;
+            overflow: hidden;
+        }
+        
+        .wrapper-top img:hover{
+            transform: scale(1.1);
+        }
+    
+    
+
+
+
+
+
+
+
+}

@@ -1,0 +1,1090 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gentium-basic');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+.menu-btn img{
+    display: none;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li ul.dropdown p {
+    display: block;
+    padding: 10px 22px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    color:  #5FA573;
+    cursor: pointer;
+}
+
+.dropdown p:hover{
+    color: #5FA573;
+}
+
+ul li ul.dropdown{
+    width: 13rem;
+    margin-top: 0.2rem;
+    height: 8.6rem;
+    background: #FDF7EF;
+    border: 1px solid gainsboro;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    color:  #5FA573;
+}
+
+ul li ul.down-drop p {
+    display: block;
+    padding: 8px 22px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-drop p:hover{
+    color: #5FA573;
+}
+
+ul li ul.down-drop{
+    width: 15rem;
+    margin-top: 0.2rem;
+    height: 14.9rem;
+    background: #FDF7EF;
+    border: 1px solid gainsboro;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.down-drop {
+    display: block;
+    color:  #5FA573;
+}
+
+
+ul li ul.blog p {
+    display: flex;
+    padding: 10px 22px;
+    color: black;
+}
+
+.left{
+    color:  #5FA573;
+}
+
+.blog p:hover{
+    color:  #5FA573;
+}
+
+.blog{
+    display: flex;
+}
+
+ul li ul.blog{
+    margin-left: -8rem;
+    width: 30rem;
+    margin-top: 0.2rem;
+    padding: 8px 8px 8px 0;
+    display: flex;
+    height: 18.5rem;
+    background: #FDF7EF;
+    border: 1px solid gainsboro;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.blog {
+    display: flex;
+    color:  #5FA573;
+}
+
+/* ========HEADER======== */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+    justify-content: space-between;
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
+    background-color: #FCF4E6;
+}
+
+
+header .brand img{
+    width: 130px;
+    height: 99px;
+}
+
+a#button{
+    font-family:  "Karla", sans-serif; 
+    background: #5FA573;
+    padding: 15px 28px; 
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5rem;
+}
+
+a#button:hover{
+    background: rgb(18, 17, 17);
+    color: #fff;
+}
+
+header .navigation .navigation-items a{
+    position: relative;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 3rem;
+    transition: 0.4s ease-in-out;
+}
+
+header .navigation .navigation-items a:hover{
+    color: #afafaf;
+}
+
+.notification-count {
+    background: transparent;
+    color: #5FA573;
+    font-size: 15px;
+    font-weight: 700;
+    width: fit-content;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0rem;
+    position: absolute;
+    right: 19.4rem;
+    top: 2.2rem;
+}
+
+img.cart{
+width: 30px;
+}
+/* =========================HERO===SECTION==================== */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 3rem 50px;
+    height: 130vh;
+    background-color: #FCF4E6;
+}
+
+
+.priority{
+    margin-top: 1rem;
+    font-size: 89px;
+    font-weight: 400;
+}
+
+.priority p{
+    font-family: 'Gentium Basic', sans-serif;
+}
+
+.line-black{
+    color: #5FA573;
+    font-family: 'Gentium Basic', sans-serif;
+    border-bottom: 0.5rem solid #212020;
+}
+
+.second{
+    padding: 40px 0px;
+}
+
+.second p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pictures img{
+    width: 285px;
+    height: 270px;
+}
+
+.bend{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.down{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.sec-button{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin-top: 23px;
+    text-align: center;
+    gap: 4rem;
+}
+
+button{
+    background-color: #5FA573;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5rem;
+    justify-content: center;
+    padding: 13px 25px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+}
+
+button:hover{
+    color: #fff;
+    background: rgb(18, 17, 17);
+    color: #fff;
+}
+
+.play-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    background: transparent; 
+    display: flex;
+    justify-content: space-around;
+    color: #212020;
+    border-radius: 60%;
+    border: 1px solid #5FA573;
+    transition: transform .1s;
+}
+
+.btn-join{
+    gap: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-join p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+.btn-join p:hover{
+    color: #5FA573;
+}
+
+
+
+/* =================2ND==HERO================== */
+
+#sub{
+    padding: 0rem 45px;
+    background: #FDF7EF;
+    height: 265vh;
+}
+
+.net{
+    padding: 7rem 45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.net h1{
+    font-family: 'Gentium Basic', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+.net p{
+    margin-top: 1.5rem;
+    font-size: 20px;
+    font-weight: 400;
+    color: #5a5143;
+    line-height: 1.6rem;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.holistic h2{
+    font-family: 'Gentium Basic', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+.personalized h2{
+    font-family: 'Gentium Basic', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #2f2f2f;
+    margin-top: 9rem;
+}
+
+.holistic p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5a5143;
+    margin-top: 1.5rem;
+}
+
+.personalized p{
+    font-size: 18px;
+    color: #5a5143;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.last{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.how{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.you h1{
+    color: #2F2F2F;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Gentium Basic', sans-serif;
+}
+
+.you p{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: #5a5143;
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.6rem;
+}
+
+.content{
+    padding: 2rem 20px;
+    background: #BDCDC1;
+    width: 23.5rem;
+    height: 19rem;
+    border-radius: 12px;
+}
+
+.prev h3{
+    font-family: 'Gentium Basic', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 1.3rem;
+}
+
+.prev p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5a5143;
+    margin-top: 1.3rem;
+}
+
+.prev-join{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.3rem;
+}
+
+.prev-btn{
+    width: 1.4rem;
+    height: 1.4rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    display: flex;
+    color: #212020;
+    border-radius: 60%;
+    border: 1px solid black;
+    transition: transform .1s;
+}
+
+.prev-join p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+.prev-join p:hover{
+    color: #5FA573;
+} 
+
+/* ========================TRUE===================== */
+
+.true{
+    height: 250vh;
+    padding: 9rem 45px;
+    background: #2f2f2f;
+}
+
+.leaf{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+hr{
+    margin-top: 5rem;
+    height: 0px;
+}
+
+.leaf h2{
+    margin-top: 2rem;
+    font-size: 60px;
+    font-family: 'Gentium Basic', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.ink{
+    padding: 3rem 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.list{
+    border-bottom: 1px solid white;
+}
+
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+.woman{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.woman .none{
+    border-radius: 10px;
+    background-color: transparent;
+    position: absolute;
+    width: 92%;
+    margin-top: 1.3rem;
+    border: 1.5px solid #6E6E6E;
+    margin-left: 1.3rem;
+    height: 78%;
+}
+
+.woman img{
+    position: absolute;
+    width: 459px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-position:center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.designer p{
+color: #5FA573;
+font-size: 20px;
+}
+
+.designer h2{
+    margin-top: 3rem;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Gentium Basic', sans-serif;
+}
+
+.designer h3{
+    margin-top: 2.5rem;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Gentium Basic', sans-serif;
+}
+
+.designer p.arrow{
+    margin-top: 12px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    }
+
+.icons{
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    gap: 16.9px;
+    margin-top: 1.6rem;
+}
+.icon i{
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 9rem;
+    border: 1px solid rgba(191, 191, 191, 0.369);
+}
+
+.icon-btn:hover{
+    background: #5FA573;
+}
+
+.icon-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    background: transparent; 
+    display: flex;
+    justify-content: space-around;
+    color: #212020;
+    border-radius: 60%;
+    border: 1px solid #fff;
+    transition: transform .1s;
+}
+
+.icon-btn i{
+    font-size: 1.4rem;
+}
+
+.news{
+    display: flex;
+    padding: 0px 45px;
+    background: #FDF7EF;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+/* ==============WRAPPER=========== */
+
+.news-top{
+    background: #FDF7EF;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+    padding: 6rem 45px;
+}
+
+.wrapper-top{
+    border-radius: 10px;
+    width: 120px; 
+    height: 320px;
+    overflow: hidden;
+}
+
+.wrapper-top img:hover{
+    transform: scale(1.1);
+}
+
+.wrapper-top img{
+    object-fit: cover;
+    width: 130px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.art{
+    display: flex;
+    background: #FCF4E6;
+    padding: 7rem 45px;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.rem h1{
+    font-size: 50px;
+    font-family: 'Gentium Basic', sans-serif;
+    font-weight: 400;
+}
+
+.rem p.and{
+    margin-top: 3rem;
+    color: #5FA573;
+    font-size: 30px;
+    font-family: 'Gentium Basic', sans-serif;
+    font-weight: 400;
+}
+
+.med{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+    border-bottom: 2px solid #CBC2B5;
+}
+
+.med p{
+    margin-top: 2rem;
+    font-family: 'Gentium Basic', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.medication{
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+    border-bottom: 2px solid #CBC2B5;
+}
+
+.medication p{
+    font-family: 'Gentium Basic', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.style-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    color: #212020;
+    border-radius: 60%;
+    border: 1px solid #716E6A;
+    transition: transform .1s;
+} */
+/* ===========================SERVICE================= */
+
+.service{
+    background: #FCF4E6;
+    padding: 0rem 45px;
+}
+
+.our{
+    background: #FCF4E6;
+    padding: 0px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1.ser{
+    font-size: 50px;
+    color: #2F2F2F;
+    font-weight: 400;
+    font-family: 'Gentium Basic', sans-serif;
+}
+
+a#butt{
+    font-family:  "Karla", sans-serif; 
+    background: #5FA573;
+    padding: 15px 28px; 
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    width: 11rem;
+    text-decoration: none;
+    border-radius: 5rem;
+}
+
+
+.top{
+    background: #FCF4E6;
+    display: flex;
+    justify-content: space-between;
+    height: 130vh;
+    padding: 3rem 45px;
+}
+
+.wrapper-top{
+    border-radius: 10px;
+    width: 375px;
+    height: 340px;
+    overflow: hidden;
+}
+
+.wrapper-top img:hover{
+    transform: scale(1.1);
+}
+
+.wrapper-top img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.branch h2{
+    font-size: 30px;
+    color: #2F2F2F;
+    margin-top: 2rem;
+    font-family: 'Gentium Basic', sans-serif;
+    font-weight: 400;
+}
+
+.branch p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1rem;
+} */
+
+/* ===================POINT================== */
+
+.point{
+    background: #FCF4E6;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0rem 45px;
+}
+
+.mate-btn{
+    width: 1.5rem;
+    height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    color: #212020;
+    border-radius: 60%;
+    border: 1px solid #716E6A;
+    transition: transform .1s;
+}
+
+.job{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10px;
+}
+
+.-join{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#body-end-list{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    background: #bdcdc1;
+    padding: 8rem 50px;
+}
+
+.first-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.locate h1{
+    font-family: 'Gentium Basic', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.list-one{
+    margin-top: 1rem;
+}
+
+.list-one p{
+    margin-top: 0.7rem;
+}
+
+.list-one ul li a{
+    text-decoration: none;
+    color: #5b5757;
+    font-size: 20px;
+    transition: color .3s;
+}
+
+.list-one ul li a:hover{
+    color: #5fa573;
+}
+
+.list-one p{
+    color: #5b5757;
+    margin-bottom: 0;
+    font-family: Karla, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.list-two a img{
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.list-two h1{
+    color: #2f2f2f;
+    font-family: 'Gentium Basic', sans-serif;
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.cus-btn{
+    margin-top: 30px;
+    display: flex;
+}
+
+.cus-btn a{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 19px;
+    font-weight: 400;
+    width: 13rem;
+    height: 3rem;
+    transition: all .3s;
+    color: #2f2f2f;
+    border: 1px solid #2f2f2f;
+}
+
+.cus-btn  .cus-btnb{
+    background: #fff;
+    border: none;
+    padding: 12px 35px;
+}
+
+.cus-btn  .cus-btnc:hover{
+    border: 1px solid #5fa573;
+    color: #5fa573;
+}
+
+.cus-btn  .cus-btnb:hover{
+    border: 1px solid #2f2f2f;
+    background: none;
+    color: #fff;
+}
+
+.cus-btn{
+    margin-top: 30px;
+    display: flex;
+    gap: 6%;
+}
+
+.cus-btn a{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 19px;
+    font-weight: 400;
+    transition: all .3s;
+    color: #2f2f2f;
+    border: 1px solid #2f2f2f;
+}
+
+.cus-btn  .cus-btnb{
+    background: #fff;
+    border: none;
+    padding: 12px 35px;
+}
+
+.cus-btn  .cus-btnc:hover{
+    border: 1px solid #5fa573;
+    color: #5fa573;
+}
+
+.cus-btn  .cus-btnb:hover{
+    border: 1px solid #2f2f2f;
+    background: none;
+    color: #fff;
+}
+
+.second-list{
+    display: flex;
+    align-items: center;
+    display: flex;
+    gap: 12%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Gentium basic, sans-serif;
+}
+
+.lst-one{
+    margin-top: 2.3rem;
+}
+
+.lst-one h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Gentium Basic', sans-serif;
+}
+
+.this{
+    color: #5b5757;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.this p{
+    line-height: 2.6rem;
+} 
+
+/* ===========OFFICE===== */
+
+ .office h1{
+    font-family: 'Gentium Basic', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+
+.lst-one ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.lst-one p {
+    text-decoration: none;
+    color: #5b5757;
+    font-size: 20px;
+    font-weight: 400;
+    transition: color .3s;
+}
+
+
+.footer{
+    padding: 3rem 45px;
+    display: flex;
+    background: #bdcdc1;
+    justify-content: space-between;
+}
+
+.blog{
+    display: flex;
+    gap: 2rem;
+}
+
+.blog p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.blog p:hover{
+    color: #5fa573;
+}
+
+.foot p a{
+    color: #212020;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.foot p{
+    color: #212020;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.top{
+    background: #FCF4E6;
+    display: flex;
+    justify-content: space-between;
+    height: 110vh;
+    padding: 3rem 45px;
+}
+
+.top-wrapper{
+    border-radius: 10px;
+    width: 575px;
+    height: 340px;
+    overflow: hidden;
+}
+
+.top-wrapper img:hover{
+    transform: scale(1.1);
+}
+
+.top-wrapper img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+} 
